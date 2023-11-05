@@ -24,3 +24,6 @@ List<Contact> contactsList = [
     icon: const Icon(FontAwesomeIcons.phone),
   ),
 ];
+
+String resumeUrl =
+    'https://drive.google.com/file/d/1PAaR0K1X8QKGv719psOGeo3TducUsFen/view?usp=sharing';
