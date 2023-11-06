@@ -20,8 +20,8 @@ class _ResumeButtonState extends State<ResumeButton> {
     final theme = Theme.of(context);
 
     return SizedBox(
-      height: 100,
-      width: 166,
+      // height: 100,
+      // width: 166,
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 24),
         child: MouseRegion(

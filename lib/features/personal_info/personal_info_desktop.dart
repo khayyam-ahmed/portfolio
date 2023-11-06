@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:portfolio/common/constants/sizes.dart';
-import 'package:portfolio/features/personal_info/data/contacts.dart';
+import 'package:portfolio/features/personal_info/data/personal_info.dart';
 import 'package:portfolio/features/personal_info/widgets/contact_bar.dart';
 import 'package:portfolio/features/personal_info/widgets/resume_button.dart';
 
