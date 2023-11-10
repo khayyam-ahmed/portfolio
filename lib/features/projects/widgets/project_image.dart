@@ -21,14 +21,14 @@ class ProjectImage extends StatelessWidget {
           constraints: const BoxConstraints(
             minHeight: 200,
             minWidth: 520,
-            maxHeight: 400,
+            maxHeight: 300,
             maxWidth: 600,
           ),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(12),
             border: Border.all(
               width: 4,
-              color: Theme.of(context).colorScheme.tertiary.withAlpha(100),
+              color: Theme.of(context).colorScheme.secondary.withAlpha(100),
             ),
           ),
           child: ClipRRect(

@@ -10,7 +10,8 @@ class TechnologyChip extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
       decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.secondary,
+        // color: Theme.of(context).colorScheme.secondary,
+        color: Colors.black26,
         borderRadius: BorderRadius.circular(20),
       ),
       child: Text(
