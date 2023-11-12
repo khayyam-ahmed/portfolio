@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:portfolio/common/widgets/responsive.dart';
 import 'package:portfolio/features/main/widgets/app_bar_button.dart';
 
@@ -23,7 +23,7 @@ class MyAppBar extends StatelessWidget {
             child: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                const Icon(Icons.terminal),
+                const Icon(FontAwesomeIcons.terminal),
                 const SizedBox(width: 12),
                 Text(
                   'Portfolio',
