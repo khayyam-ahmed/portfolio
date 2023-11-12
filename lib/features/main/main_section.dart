@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/common/widgets/responsive.dart';
 import 'package:portfolio/features/main/main_section_desktop.dart';
 
 class MainSection extends StatefulWidget {
@@ -18,7 +19,10 @@ class _MainSectionState extends State<MainSection> {
         left: false,
         right: false,
         bottom: false,
-        child: MainDesktop(),
+        child: Responsive(
+          desktop: MainDesktop(),
+          tablet: ,
+        ),
       ),
     );
   }
