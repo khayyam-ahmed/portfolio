@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:portfolio/common/widgets/responsive.dart';
 import 'package:portfolio/features/personal_info/personal_info_desktop.dart';
+import 'package:portfolio/features/personal_info/personal_info_tablet.dart';
 
 class PersonalInfoSection extends StatelessWidget {
   const PersonalInfoSection({super.key});
@@ -9,7 +10,7 @@ class PersonalInfoSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Responsive(
       desktop: PersonalInfoDesktop(),
-      mobile: PersonalInfoDesktop(),
+      tablet: PersonalInfoTablet(),
     );
   }
 }

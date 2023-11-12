@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/common/constants/sizes.dart';
 import 'package:portfolio/common/widgets/responsive.dart';
+import 'package:portfolio/common/constants/sizes.dart';
 import 'package:portfolio/features/about/about_section.dart';
 import 'package:portfolio/features/experiences/experiences_section.dart';
 import 'package:portfolio/features/main/widgets/sliver_app_bar.dart';
