@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/common/widgets/responsive.dart';
 import 'package:portfolio/features/main/main_section_desktop.dart';
+import 'package:portfolio/features/main/main_section_tablet.dart';
 
 class MainSection extends StatefulWidget {
   const MainSection({super.key});
@@ -21,7 +22,7 @@ class _MainSectionState extends State<MainSection> {
         bottom: false,
         child: Responsive(
           desktop: MainDesktop(),
-          tablet: ,
+          tablet: MainTablet(),
         ),
       ),
     );
