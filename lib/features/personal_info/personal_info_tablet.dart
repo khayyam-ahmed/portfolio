@@ -28,11 +28,20 @@ class PersonalInfoTablet extends StatelessWidget {
           style: Theme.of(context).textTheme.bodyLarge,
         ),
         gapH40,
-        ResumeButton(resumeUrl: resumeUrl),
-        const Spacer(),
+        // ResumeButton(resumeUrl: resumeUrl),
+        _buildResumeButton(),
+        // const Spacer(),
         gapH8,
         ContactBar(contacts: contacts),
       ],
+    );
+  }
+
+  Widget _buildResumeButton() {
+    // if (resumeUrl) return const SizedBox.shrink();
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 36),
+      child: ResumeButton(resumeUrl: resumeUrl),
     );
   }
 }

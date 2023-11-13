@@ -40,6 +40,7 @@ class _MainTabletState extends State<MainTablet> {
                             Padding(
                               padding: EdgeInsets.symmetric(horizontal: 12),
                               child: PersonalInfoSection(),
+                              // child: PersonalInfoTablet(),
                             ),
                             gapH100,
                             Padding(
