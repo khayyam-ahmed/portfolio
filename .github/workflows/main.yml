@@ -18,8 +18,8 @@ jobs:
       - run: flutter config --enable-web
       # Upgrading flutter
       - run: flutter upgrade
-      # - name: Set Dart SDK version
-      #   run: echo "DART_SDK_VERSION=3.1.5" >> $GITHUB_ENV
+      - name: Set Dart SDK version
+        run: echo "DART_SDK_VERSION=3.1.5" >> $GITHUB_ENV
       - run: flutter pub get
       - run: flutter build web --release
       # - run: flutter build web
