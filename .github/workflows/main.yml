@@ -11,15 +11,20 @@ jobs:
       my_secret: ${{secrets.commit_secret}}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: subosito/flutter-action@v1
+      # - uses: actions/checkout@v1
+      # - uses: subosito/flutter-action@v1
+      #   with:
+      #     channel: 'dev'
+      
+      # Upgrading flutter
+      # - name: Set Dart SDK version
+      #   run: echo "DART_SDK_VERSION=3.1.5" >> $GITHUB_ENV
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
         with:
           channel: 'dev'
       - run: flutter config --enable-web
-      # Upgrading flutter
-      - run: flutter upgrade
-      - name: Set Dart SDK version
-        run: echo "DART_SDK_VERSION=3.1.5" >> $GITHUB_ENV
+      # - run: flutter upgrade
       - run: flutter pub get
       - run: flutter build web --release
       # - run: flutter build web
