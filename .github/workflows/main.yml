@@ -1,4 +1,3 @@
-
 name: Flutter Web
 on:
   push:
@@ -11,33 +10,20 @@ jobs:
       my_secret: ${{secrets.commit_secret}}
     runs-on: ubuntu-latest
     steps:
-      # - uses: actions/checkout@v1
-      # - uses: subosito/flutter-action@v1
-      #   with:
-      #     channel: 'dev'
-      
-      # Upgrading flutter
-      # - name: Set Dart SDK version
-      #   run: echo "DART_SDK_VERSION=3.1.5" >> $GITHUB_ENV
-      - name: Set up Flutter
-        uses: subosito/flutter-action@v2
+      - uses: actions/checkout@v1
+      - uses: subosito/flutter-action@v3
         with:
           channel: 'dev'
-      - run: flutter config --enable-web
-      # - run: flutter upgrade
+      - name: Set up Flutter
+        run: flutter config --enable-web
       - run: flutter pub get
       - run: flutter build web --release
-      # - run: flutter build web
       - run: |
           cd build/web
           git init
-          # type configurations: your user.email and user.name followed lines 
-          # git config --global user.email your_email 
-          # git config --global user.name your_name 
           git config --global user.email ahmed.khayyam012@gmail.com
           git config --global user.name khayyam-ahmed
           git status
-          # change this remote url for examle your remote url is https://github.com/onatcipli/flutter_web.git then the following:
           git remote add origin https://${{secrets.commit_secret}}@github.com/khayyam-ahmed/portfolio.git
           git checkout -b gh-pages
           git add --all
