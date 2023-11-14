@@ -16,6 +16,7 @@ jobs:
           channel: 'dev'
       - name: Set up Flutter
         run: flutter config --enable-web
+      - run: flutter upgrade
       - run: flutter pub get
       - run: flutter build web --release
       - run: |
