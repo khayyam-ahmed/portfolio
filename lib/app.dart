@@ -11,6 +11,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: themes.lightTheme,
       darkTheme: themes.darkTheme,
+      // Overriding the default theme with dark theme.
+      themeMode: ThemeMode.dark,
       home: const MainSection(),
     );
   }
