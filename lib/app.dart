@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: themes.lightTheme,
+      theme: themes.darkTheme,
       darkTheme: themes.darkTheme,
       // Overriding the default theme with dark theme.
       themeMode: ThemeMode.dark,
