@@ -98,7 +98,7 @@ class ExperienceCard extends StatelessWidget {
       await launchUrl(Uri.parse(url));
     } catch (e) {
       if (context.mounted) {
-        // print(e.toString());
+        print(e.toString());
       }
     }
   }
