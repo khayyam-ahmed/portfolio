@@ -6,7 +6,7 @@ final projectsList = [
     description:
         'Yes it is this portfolio website. This project follows a feature-first approach for its structure. It is built with Flutter Web and hosted on GitHub Pages',
     githubUrl: 'https://github.com/khayyam-ahmed/portfolio#readme',
-    screenshotPath: 'assets/images/screenshots/chat_app.png',
+    screenshotPath: 'assets/images/screenshots/portfolio.png',
     technologies: [
       'Flutter',
       'GitHub Actions',
@@ -18,7 +18,7 @@ final projectsList = [
     description:
         'Developed an intelligent system to analyze gameplay and assist in improving performance of cricket players using deep learning and computer vision techniques. Implemented features such as bowling length classification, batting shot classification, strong and weak points identification, and performance comparison.',
     githubUrl: 'https://github.com/khayyam-ahmed/cricace-api',
-    screenshotPath: 'assets/images/screenshots/chat_app.png',
+    screenshotPath: 'assets/images/screenshots/cricace.png',
     technologies: [
       'OpenCV',
       'YOLO v8',
