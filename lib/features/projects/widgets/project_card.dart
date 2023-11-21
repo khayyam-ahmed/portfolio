@@ -48,12 +48,16 @@ class _ProjectCardState extends State<ProjectCard> {
 
   void _onTap() async {
     final url = widget.project.githubUrl;
-    try {
-      await launchUrl(Uri.parse(url));
-    } catch (e) {
-      if (context.mounted) {
-        print(e.toString());
+    if (url != null) {
+      try {
+        await launchUrl(Uri.parse(url));
+      } catch (e) {
+        if (context.mounted) {
+          // add an error check
+        }
       }
+    } else {
+      return null;
     }
   }
 
