@@ -44,6 +44,19 @@ final projectsList = [
     ],
   ),
   Project(
+    name: 'SnapScape: Explore & Save',
+    description:
+        'Developed a mobile app leveraging Flutter and Dart, integrating native device functionalities. Employed Riverpod for state management to capture and save favorite places with images. Implemented GPS functionality for real-time location tracking and Google Maps API for interactive map displays. Applied local storage for efficient data management.',
+    githubUrl: 'https://github.com/khayyam-ahmed/favorite_places',
+    screenshotPath: 'assets/images/screenshots/favorite_places.png',
+    technologies: [
+      'Flutter',
+      'Firebase',
+      'RiverPod',
+      'Google Maps API',
+    ],
+  ),
+  Project(
     name: 'EE 433 Digital Image Processing',
     description:
         'Developed an algorithm to remove night light pollution and enhance star visibility from images of the night sky. Applied Fourier Transform to filter out the pollution frequencies and amplify the star frequencies. Utilized PIL, Matplotlib, and numpy modules in Python.',
