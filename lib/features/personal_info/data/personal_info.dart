@@ -28,4 +28,4 @@ List<Contact> contactsList = [
 // String resumeUrl =
 //     'https://drive.google.com/file/d/1PAaR0K1X8QKGv719psOGeo3TducUsFen/view?usp=sharing';
 String resumeUrl =
-    'https://1drv.ms/b/s!AnG8bbEOiG_xgaszUGbNvoHn7Kxs-g?e=346fU6';
+    'https://1drv.ms/b/s!AnG8bbEOiG_xgas7gbR4wcE8ZRpYyw?e=g59oxU';
