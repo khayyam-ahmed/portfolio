@@ -19,8 +19,8 @@ List<Contact> contactsList = [
     icon: const Icon(FontAwesomeIcons.envelope),
   ),
   Contact(
-    url: "tel:923494178183",
-    tooltip: "+92 349 4178183",
+    url: "tel:15718950812",
+    tooltip: "+1 (571) 895 0812",
     icon: const Icon(FontAwesomeIcons.phone),
   ),
 ];
