@@ -61,7 +61,7 @@ final projectsList = [
     description:
         'Developed an algorithm to remove night light pollution and enhance star visibility from images of the night sky. Applied Fourier Transform to filter out the pollution frequencies and amplify the star frequencies. Utilized PIL, Matplotlib, and numpy modules in Python.',
     // githubUrl: 'https://github.com/khayyam-ahmed/portfolio#readme',
-    screenshotPath: 'assets/images/screenshots/chat_app.png',
+    screenshotPath: 'assets/images/screenshots/dip_project.png',
     technologies: [
       'OpenCV',
       'Firebase',
