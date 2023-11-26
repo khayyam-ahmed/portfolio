@@ -30,9 +30,10 @@ class _ProjectCardState extends State<ProjectCard> {
           color: Theme.of(context).colorScheme.secondary,
           borderRadius: BorderRadius.circular(20),
           child: InkWell(
+            mouseCursor: MaterialStateMouseCursor.textable,
             onTap: _onTap,
             borderRadius: BorderRadius.circular(20),
-            hoverColor: Theme.of(context).colorScheme.secondary.withAlpha(40),
+            hoverColor: const Color.fromARGB(59, 0, 0, 0),
             splashColor: Theme.of(context).colorScheme.secondary.withAlpha(30),
             highlightColor:
                 Theme.of(context).colorScheme.secondary.withAlpha(20),
