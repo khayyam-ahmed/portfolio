@@ -14,13 +14,13 @@ List<Contact> contactsList = [
     icon: const Icon(FontAwesomeIcons.github),
   ),
   Contact(
-    url: "mailto:ahmed.khayyam012@gmail.com",
-    tooltip: "ahmed.khayyam012@gmail.com",
+    url: "mailto:yamamcdude@gmail.com",
+    tooltip: "yamamcdude@gmail.com",
     icon: const Icon(FontAwesomeIcons.envelope),
   ),
   Contact(
-    url: "tel:15718950812",
-    tooltip: "+1 (571) 895 0812",
+    url: "tel:15715962106",
+    tooltip: "+1 (571) 596 2106",
     icon: const Icon(FontAwesomeIcons.phone),
   ),
 ];
