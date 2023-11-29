@@ -30,4 +30,4 @@ List<Contact> contactsList = [
 // String resumeUrl =
 //     'https://1drv.ms/b/s!AnG8bbEOiG_xgas7gbR4wcE8ZRpYyw?e=f6vMle';
 String resumeUrl =
-    'https://1drv.ms/b/s!AnG8bbEOiG_xgas7gbR4wcE8ZRpYyw?e=rhsm7c';
+    'https://1drv.ms/b/s!AnG8bbEOiG_xgatIonh3BRfrtAA1FA?e=7gADtt';
