@@ -44,6 +44,14 @@ final projectsList = [
     ],
   ),
   Project(
+    name: 'MealExplorer',
+    description:
+        "Undertaken as part of a guided project through a comprehensive Flutter course, \"MealExplorer\" is an educational initiative focused on Flutter widgets, state management using RiverPod, intricate app architecture, and animations. The project, inspired by Maximillian Schwarzmüller's course, allows users to navigate, filter, and manage meals, catering to dietary preferences such as vegan, vegetarian, and gluten-free options. Its intuitive interface, featuring a bottom tab bar and side drawer, ensures seamless exploration on both Android and iOS platforms.",
+    githubUrl: 'https://github.com/khayyam-ahmed/meals',
+    screenshotPath: 'assets/images/screenshots/meals.png',
+    technologies: ['Flutter', 'RiverPod', 'Animations'],
+  ),
+  Project(
     name: 'SnapScape: Explore & Save',
     description:
         'Developed a mobile app leveraging Flutter and Dart, integrating native device functionalities. Employed Riverpod for state management to capture and save favorite places with images. Implemented GPS functionality for real-time location tracking and Google Maps API for interactive map displays. Applied local storage for efficient data management.',
@@ -64,8 +72,8 @@ final projectsList = [
     screenshotPath: 'assets/images/screenshots/dip_project.png',
     technologies: [
       'OpenCV',
-      'Firebase',
-      'Firebase Hosting',
+      'Matplotlib',
+      'PIL',
     ],
   ),
 ];
