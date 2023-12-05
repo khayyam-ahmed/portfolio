@@ -25,9 +25,5 @@ List<Contact> contactsList = [
   ),
 ];
 
-// String resumeUrl =
-//     'https://drive.google.com/file/d/1PAaR0K1X8QKGv719psOGeo3TducUsFen/view?usp=sharing';
-// String resumeUrl =
-//     'https://1drv.ms/b/s!AnG8bbEOiG_xgas7gbR4wcE8ZRpYyw?e=f6vMle';
 String resumeUrl =
-    'https://1drv.ms/b/s!AnG8bbEOiG_xgatIonh3BRfrtAA1FA?e=7gADtt';
+    'https://1drv.ms/f/s!AnG8bbEOiG_xgas0LdKoPpX_4Osmpg?e=qaqAYe';
