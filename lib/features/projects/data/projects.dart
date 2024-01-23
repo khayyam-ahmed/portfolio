@@ -35,7 +35,7 @@ final projectsList = [
     name: 'Guided Project: Chat App',
     description:
         'Developed a Flutter app that allows users to chat with each other in real-time using Firebase services. Implemented features such as user authentication, image upload, push notifications, and cloud database. Used Dart, HTML, CSS, and JavaScript languages.',
-    githubUrl: 'https://github.com/khayyam-ahmed/portfolio#readme',
+    githubUrl: 'https://github.com/khayyam-ahmed/chat_app',
     screenshotPath: 'assets/images/screenshots/chat_app.png',
     technologies: [
       'Flutter',
