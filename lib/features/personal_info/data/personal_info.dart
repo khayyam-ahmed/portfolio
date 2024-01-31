@@ -26,4 +26,4 @@ List<Contact> contactsList = [
 ];
 
 String resumeUrl =
-    'https://1drv.ms/f/s!AnG8bbEOiG_xgas0LdKoPpX_4Osmpg?e=qaqAYe';
+    'https://1drv.ms/b/s!AnG8bbEOiG_xgaxrO3DFMHQ69yfKqA?e=8mpxoV';
