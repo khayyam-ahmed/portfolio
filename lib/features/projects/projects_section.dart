@@ -19,7 +19,7 @@ class ProjectsSection extends StatelessWidget {
           ),
         ),
         ...projectsList.map((project) {
-          print(project.name);
+          // print(project.name);
           return Column(
             children: [
               ProjectCard(project: project),

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+// import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:portfolio/features/main/main_section.dart';
 import 'package:portfolio/common/constants/themes.dart' as themes;
+// import 'package:portfolio/common/widgets/animated_fade_slide.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

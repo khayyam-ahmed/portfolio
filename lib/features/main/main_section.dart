@@ -1,16 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:portfolio/common/widgets/responsive.dart';
 import 'package:portfolio/features/main/main_section_desktop.dart';
 import 'package:portfolio/features/main/main_section_tablet.dart';
 
-class MainSection extends StatefulWidget {
+class MainSection extends HookWidget {
   const MainSection({super.key});
 
-  @override
-  State<MainSection> createState() => _MainSectionState();
-}
-
-class _MainSectionState extends State<MainSection> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

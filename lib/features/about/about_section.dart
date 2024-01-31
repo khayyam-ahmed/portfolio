@@ -17,7 +17,7 @@ class AboutSection extends StatelessWidget {
           ),
         ),
         Text(
-          aboutDescription_4,
+          aboutDescription_1,
           style: Theme.of(context).textTheme.bodyLarge,
         ),
       ],

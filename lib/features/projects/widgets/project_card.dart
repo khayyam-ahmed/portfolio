@@ -48,7 +48,7 @@ class _ProjectCardState extends State<ProjectCard> {
   }
 
   void _onTap() async {
-    final url = widget.project.githubUrl;
+    final url = widget.project.githubUrl ?? widget.project.documentationUrl;
     if (url != null) {
       try {
         await launchUrl(Uri.parse(url));

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/common/widgets/responsive.dart';
 import 'package:portfolio/common/constants/sizes.dart';
+import 'package:portfolio/common/widgets/animated_fade_slide.dart';
 import 'package:portfolio/features/about/about_section.dart';
 import 'package:portfolio/features/experiences/experiences_section.dart';
 import 'package:portfolio/features/main/widgets/sliver_app_bar.dart';
@@ -39,7 +40,12 @@ class _MainTabletState extends State<MainTablet> {
                           children: [
                             Padding(
                               padding: EdgeInsets.symmetric(horizontal: 12),
+                              child: AnimatedFadeSlide(
+                              offset: Offset(0, 40),
+                              duration: Duration(milliseconds: 800),
+                              delay: Duration(milliseconds: 200),
                               child: PersonalInfoSection(),
+                            ),
                               // child: PersonalInfoTablet(),
                             ),
                             gapH100,
