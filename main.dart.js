@@ -74322,7 +74322,7 @@ A.a8c.prototype={
 $1(a){return new A.oc(a,null)},
 $S:442}
 A.CK.prototype={
-E(a){return A.e3(A.a([new A.cj(B.BS,A.c2("About Me",null,A.W(a).p3.r),null),A.c2("Hello! I'm Khayyam, an aspiring cybersecurity analyst transitioning from a solid foundation in computer science. My background in full-stack development and a strong grasp of data science principles have uniquely equipped me for the challenges in the cybersecurity realm. Although new to the field, my passion for digital security and my proven ability to adapt and learn quickly make me a promising candidate for entry-level positions. I am eager to apply my skills and grow professionally, contributing to the safety and efficiency of technological environments",null,A.W(a).p3.y)],t.p),B.ad,B.S,B.a0)}}
+E(a){return A.e3(A.a([new A.cj(B.BS,A.c2("About Me",null,A.W(a).p3.r),null),A.c2("Hello, I'm Khayyam. I am a versatile software engineer with a passion for programming and a keen interest in the evolving landscape of technology. Proficient in languages like Python, C++, and Java, I have a strong track record in writing effective automation scripts, including browser automation. While I'm enthusiastic about coding and technology, I approach my work with humility and a readiness to learn, always aiming to contribute meaningfully to any team I join, whether in development, programming, or security analysis.",null,A.W(a).p3.y)],t.p),B.ad,B.S,B.a0)}}
 A.Fc.prototype={
 E(a){var s=A.a([new A.cj(B.lj,A.c2("Experience",null,A.W(a).p3.r),null)],t.p)
 B.b.M(s,new A.a5($.as6,new A.Ym(),A.a8($.as6).j("a5<1,h>")))
