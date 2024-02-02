@@ -74151,7 +74151,7 @@ A.aa2.prototype={}
 A.pj.prototype={}
 A.HA.prototype={
 G(a){var s=null,r=$.ai1()
-return A.fG(A.a([A.d6("Khayyam Ahmed",s,A.Z(a).p3.b),B.fE,A.d6("Software Engineer",s,A.Z(a).p3.r),B.bl,A.d6("Flutter & Python Enthusiast",s,A.Z(a).p3.y),B.xg,new A.nO(u.O,s),B.LK,B.bl,new A.pk(r,s)],t.p),B.as,B.a_,B.a4)}}
+return A.fG(A.a([A.d6("Khayyam Ahmed",s,A.Z(a).p3.b),B.fE,A.d6("Software Engineer",s,A.Z(a).p3.r),B.bl,A.d6("Programmer | Computer Vision Enthusiast",s,A.Z(a).p3.y),B.xg,new A.nO(u.O,s),B.LK,B.bl,new A.pk(r,s)],t.p),B.as,B.a_,B.a4)}}
 A.HB.prototype={
 G(a){var s=null,r=$.ai1(),q=A.d6("Khayyam Ahmed",s,A.Z(a).p3.b),p=A.Z(a).p3.r
 return A.fG(A.a([q,B.fE,A.d6("Software Engineer",s,p==null?s:p.Kx(20)),B.bl,A.d6("Programmer | Computer Vision Enthusiast",s,A.Z(a).p3.y),B.bl,new A.ct(B.lg,new A.nO(u.O,s),s),B.bl,new A.pk(r,s)],t.p),B.as,B.a_,B.a4)}}
