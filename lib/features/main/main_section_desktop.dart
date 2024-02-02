@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 // import 'package:portfolio/common/widgets/animated_fade_slide.dart';
 import 'package:portfolio/common/widgets/selection_area.dart';
 import 'package:portfolio/features/about/about_section.dart';
-import 'package:portfolio/features/experiences/experiences_section.dart';
+// import 'package:portfolio/features/experiences/experiences_section.dart';
 import 'package:portfolio/features/main/widgets/app_bar.dart';
 import 'package:portfolio/features/personal_info/personal_info_section.dart';
 import 'package:portfolio/features/projects/projects_section.dart';
