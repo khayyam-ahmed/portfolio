@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:portfolio/common/constants/sizes.dart';
+// import 'package:portfolio/common/constants/sizes.dart';
 import 'package:portfolio/common/widgets/responsive.dart';
 import 'package:portfolio/features/main/widgets/app_bar_button.dart';
 
@@ -32,13 +32,13 @@ class MyAppBar extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                 ),
-                gapW20,
-                Text(
-                  'Note: This web page is under development',
-                  style: Theme.of(context).textTheme.bodySmall!.copyWith(
-                        fontWeight: FontWeight.w100,
-                      ),
-                ),
+                // gapW20,
+                // Text(
+                //   'Note: This web page is under development',
+                //   style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                //         fontWeight: FontWeight.w100,
+                //       ),
+                // ),
               ],
             ),
           ),
