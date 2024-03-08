@@ -24,7 +24,7 @@ class PersonalInfoTablet extends StatelessWidget {
         ),
         gapH8,
         Text(
-          'Flutter & Python Enthusiast', //sub description
+          'Flutter Developer | Computer Vision Enthusiast', //sub description
           style: Theme.of(context).textTheme.bodyLarge,
         ),
         gapH40,
