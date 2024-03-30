@@ -14,8 +14,8 @@ List<Contact> contactsList = [
     icon: const Icon(FontAwesomeIcons.github),
   ),
   Contact(
-    url: "mailto:yamamcdude@gmail.com",
-    tooltip: "yamamcdude@gmail.com",
+    url: "mailto:ahmed.khayyam012@gmail.com",
+    tooltip: "ahmed.khayyam012@gmail.com",
     icon: const Icon(FontAwesomeIcons.envelope),
   ),
   Contact(
@@ -26,4 +26,4 @@ List<Contact> contactsList = [
 ];
 
 String resumeUrl =
-    'https://1drv.ms/b/s!AnG8bbEOiG_xgaxrO3DFMHQ69yfKqA?e=8mpxoV';
+    'https://1drv.ms/b/s!AnG8bbEOiG_xga19PPYHyuzqpQEOZg?e=QLhMmc';

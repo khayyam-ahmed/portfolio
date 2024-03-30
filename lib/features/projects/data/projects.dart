@@ -1,51 +1,38 @@
 import 'package:portfolio/features/projects/models/project.dart';
 
 final projectsList = [
-  Project(
-    name: 'Portfolio',
-    description:
-        'Showcasing my technical journey, this portfolio website is structured using a feature-first approach. Developed with Flutter Web, it is efficiently hosted on GitHub Pages, highlighting my front-end and hosting capabilities.',
-    githubUrl: 'https://github.com/khayyam-ahmed/portfolio#readme',
-    screenshotPath: 'assets/images/screenshots/portfolio.png',
-    technologies: [
-      'Flutter',
-      'GitHub Actions',
-      'GitHub Pages',
-    ],
-  ),
-  Project(
-    name: 'Intelligent System for Cricket Performance Analysis',
-    description:
-        'Innovatively designed to enhance cricket players\' performance, this system integrates deep learning and computer vision. Key features include batting shot and bowling length classification, alongside insightful performance analysis tools.',
-    // githubUrl: 'https://github.com/khayyam-ahmed/cricace-api',
-    documentationUrl:
-        'https://1drv.ms/b/s!AnG8bbEOiG_xgaxo9L9sXS6yZ0ph4A?e=3cuKLA',
-    screenshotPath: 'assets/images/screenshots/cricace.png',
-    technologies: [
-      'OpenCV',
-      'YOLO v8',
-      'PIL',
-      'TensorFlow Keras',
-      'Darknet',
-      'Torch',
-      'Flutter',
-      'Firebase',
-      'Firebase Hosting',
-    ],
-  ),
-  Project(
-    name: 'Real-Estate Website Scraper (zbuyer.com)',
-    description:
-        'A Python-based scraper developed for zbuyer.com, employing Selenium and BeautifulSoup for dynamic content handling. The project outputs an organized Excel spreadsheet, reflecting my skills in data extraction and automation.',
-    githubUrl: '',
-    screenshotPath: 'assets/images/screenshots/zbuyer.png',
-    technologies: [
-      'Python',
-      'Selenium',
-      'BeautifulSoup',
-      'Excel',
-    ],
-  ),
+  // Project(
+  //   name: 'Intelligent System for Cricket Performance Analysis',
+  //   description:
+  //       'Innovatively designed to enhance cricket players\' performance, this system integrates deep learning and computer vision. Key features include batting shot and bowling length classification, alongside insightful performance analysis tools.',
+  //   documentationUrl:
+  //       'https://1drv.ms/b/s!AnG8bbEOiG_xgaxo9L9sXS6yZ0ph4A?e=3cuKLA',
+  //   screenshotPath: 'assets/images/screenshots/cricace.png',
+  //   technologies: [
+  //     'OpenCV',
+  //     'YOLO v8',
+  //     'PIL',
+  //     'TensorFlow Keras',
+  //     'Darknet',
+  //     'Torch',
+  //     'Flutter',
+  //     'Firebase',
+  //     'Firebase Hosting',
+  //   ],
+  // ),
+  // Project(
+  //   name: 'Real-Estate Website Scraper (zbuyer.com)',
+  //   description:
+  //       'A Python-based scraper developed for zbuyer.com, employing Selenium and BeautifulSoup for dynamic content handling. The project outputs an organized Excel spreadsheet, reflecting my skills in data extraction and automation.',
+  //   githubUrl: '',
+  //   screenshotPath: 'assets/images/screenshots/zbuyer.png',
+  //   technologies: [
+  //     'Python',
+  //     'Selenium',
+  //     'BeautifulSoup',
+  //     'Excel',
+  //   ],
+  // ),
   Project(
     name: 'Chat App',
     description:
@@ -58,8 +45,19 @@ final projectsList = [
       'Firebase Hosting',
     ],
   ),
-];
 
+  Project(
+    name: 'Portfolio',
+    description:
+        "I've showcased my technical journey through a meticulously crafted portfolio website, employing a feature-first approach and developed using Flutter Web. Efficiently hosted on GitHub Pages, it highlights my expertise in front-end development and web hosting.",
+    githubUrl: 'https://github.com/khayyam-ahmed/portfolio#readme',
+    screenshotPath: 'assets/images/screenshots/portfolio.png',
+    technologies: [
+      'Flutter',
+      'GitHub Actions',
+      'GitHub Pages',
+    ],
+  ),
   // Project(
   //   name: 'MealExplorer',
   //   description:
@@ -68,6 +66,20 @@ final projectsList = [
   //   screenshotPath: 'assets/images/screenshots/meals.png',
   //   technologies: ['Flutter', 'RiverPod', 'Animations'],
   // ),
+  Project(
+    name: 'EE 433 Digital Image Processing',
+    description:
+        'Developed an algorithm to remove night light pollution and enhance star visibility from images of the night sky. Applied Fourier Transform to filter out the pollution frequencies and amplify the star frequencies. Utilized PIL, Matplotlib, and numpy modules in Python.',
+    // githubUrl: 'https://github.com/khayyam-ahmed/portfolio#readme',
+    screenshotPath: 'assets/images/screenshots/dip_project.png',
+    technologies: [
+      'OpenCV',
+      'Matplotlib',
+      'PIL',
+    ],
+  ),
+];
+
   // Project(
   //   name: 'SnapScape: Explore & Save',
   //   description:
@@ -79,18 +91,6 @@ final projectsList = [
   //     'Firebase',
   //     'RiverPod',
   //     'Google Maps API',
-  //   ],
-  // ),
-  // Project(
-  //   name: 'EE 433 Digital Image Processing',
-  //   description:
-  //       'Developed an algorithm to remove night light pollution and enhance star visibility from images of the night sky. Applied Fourier Transform to filter out the pollution frequencies and amplify the star frequencies. Utilized PIL, Matplotlib, and numpy modules in Python.',
-  //   // githubUrl: 'https://github.com/khayyam-ahmed/portfolio#readme',
-  //   screenshotPath: 'assets/images/screenshots/dip_project.png',
-  //   technologies: [
-  //     'OpenCV',
-  //     'Matplotlib',
-  //     'PIL',
   //   ],
   // ),
 
