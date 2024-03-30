@@ -24,7 +24,7 @@ class PersonalInfoMobile extends StatelessWidget {
         ),
         gapH8,
         Text(
-          'Flutter Developer | Computer Vision Enthusiast', //sub description
+          'Full Stack Developer', //sub description
           style: Theme.of(context).textTheme.bodyLarge,
         ),
         gapH8,
