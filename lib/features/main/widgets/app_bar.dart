@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:portfolio/common/constants/global_keys.dart';
+import 'package:portfolio/common/providers/scrollcontroller_provider.dart';
 // import 'package:portfolio/common/constants/sizes.dart';
 import 'package:portfolio/common/widgets/responsive.dart';
 import 'package:portfolio/features/main/widgets/app_bar_button.dart';
 
-class MyAppBar extends StatelessWidget {
+class MyAppBar extends ConsumerWidget {
   const MyAppBar({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final scrollController = ref.watch(scrollControllerProvider);
     return AppBar(
       scrolledUnderElevation: 0,
       backgroundColor: Theme.of(context).colorScheme.secondary,
@@ -49,15 +53,33 @@ class MyAppBar extends StatelessWidget {
           Row(children: [
             AppBarButton(
               title: 'About',
-              onPressed: () {},
+              onPressed: () {
+                scrollController.animateTo(
+                  aboutKey.currentContext!.size!.height - 100,
+                  duration: const Duration(seconds: 1),
+                  curve: Curves.easeInOut,
+                );
+              },
+            ),
+            AppBarButton(
+              title: 'Experience',
+              onPressed: () {
+                scrollController.animateTo(
+                  experienceKey.currentContext!.size!.height + 300,
+                  duration: const Duration(seconds: 1),
+                  curve: Curves.easeInOut,
+                );
+              },
             ),
             AppBarButton(
               title: 'Projects',
-              onPressed: () {},
-            ),
-            AppBarButton(
-              title: 'Contact',
-              onPressed: () {},
+              onPressed: () {
+                scrollController.animateTo(
+                  projectsKey.currentContext!.size!.height - 50,
+                  duration: const Duration(seconds: 1),
+                  curve: Curves.easeInOut,
+                );
+              },
             ),
           ]),
       ],

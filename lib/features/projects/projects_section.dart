@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/common/constants/global_keys.dart';
 import 'package:portfolio/common/constants/sizes.dart';
 import 'package:portfolio/features/projects/data/projects.dart';
 import 'package:portfolio/features/projects/widgets/project_card.dart';
@@ -9,6 +10,7 @@ class ProjectsSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      key: projectsKey,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(

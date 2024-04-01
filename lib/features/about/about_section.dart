@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/common/constants/global_keys.dart';
 import 'package:portfolio/features/about/data/about.dart';
 
 class AboutSection extends StatelessWidget {
@@ -7,6 +8,7 @@ class AboutSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      key: aboutKey,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
