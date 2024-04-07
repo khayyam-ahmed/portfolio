@@ -3,9 +3,10 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:portfolio/common/constants/global_keys.dart';
 import 'package:portfolio/common/providers/scrollcontroller_provider.dart';
-// import 'package:portfolio/common/constants/sizes.dart';
+import 'package:portfolio/common/constants/sizes.dart';
 import 'package:portfolio/common/widgets/responsive.dart';
 import 'package:portfolio/features/main/widgets/app_bar_button.dart';
+import 'package:portfolio/features/main/widgets/dark_mode_switch.dart';
 
 class MyAppBar extends ConsumerWidget {
   const MyAppBar({super.key});
@@ -16,7 +17,7 @@ class MyAppBar extends ConsumerWidget {
     return AppBar(
       scrolledUnderElevation: 0,
       backgroundColor: Theme.of(context).colorScheme.secondary,
-      // centerTitle: false,
+      centerTitle: false,
       titleTextStyle: Theme.of(context).textTheme.titleLarge?.copyWith(
             fontWeight: FontWeight.bold,
           ),
@@ -81,6 +82,9 @@ class MyAppBar extends ConsumerWidget {
                 );
               },
             ),
+            gapW8,
+            const DarkModeSwitch(),
+            gapW8,
           ]),
       ],
     );

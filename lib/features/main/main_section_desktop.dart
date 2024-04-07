@@ -25,7 +25,8 @@ class MainDesktop extends ConsumerWidget {
           child: Stack(
             children: [
               Container(
-                color: Theme.of(context).colorScheme.secondary,
+                // color: Theme.of(context).colorScheme.secondary,
+                color: Theme.of(context).colorScheme.primary,
               ),
               Row(
                 children: [
@@ -42,6 +43,8 @@ class MainDesktop extends ConsumerWidget {
                       child: MySelectionArea(
                         child: Container(
                           padding: const EdgeInsets.fromLTRB(100, 80, 100, 100),
+                          // new line: color
+                          color: Theme.of(context).colorScheme.primary,
                           child: const Align(
                             alignment: Alignment.topRight,
                             child: PersonalInfoSection(),
@@ -52,30 +55,35 @@ class MainDesktop extends ConsumerWidget {
                   ),
                   Expanded(
                     child: MySelectionArea(
-                      child: SingleChildScrollView(
-                        controller: scrollController,
-                        padding: const EdgeInsetsDirectional.only(
-                          top: 80,
-                          end: 140,
-                          bottom: 88,
-                        ),
-                        child: const Align(
-                          alignment: Alignment.topLeft,
-                          child: SizedBox(
-                            width: 520,
-                            child: Column(
-                              children: [
-                                Padding(
-                                  padding: EdgeInsets.symmetric(horizontal: 12),
-                                  child: AboutSection(),
-                                ),
-                                SizedBox(height: 120),
-                                ExperiencesSection(),
-                                SizedBox(height: 120),
-                                ProjectsSection(),
-                              ],
+                      child: Container(
+                        // new line: color
+                        color: Theme.of(context).colorScheme.primary,
+                        child: SingleChildScrollView(
+                          controller: scrollController,
+                          padding: const EdgeInsetsDirectional.only(
+                            top: 80,
+                            end: 140,
+                            bottom: 88,
+                          ),
+                          child: const Align(
+                            alignment: Alignment.topLeft,
+                            child: SizedBox(
+                              width: 520,
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding:
+                                        EdgeInsets.symmetric(horizontal: 12),
+                                    child: AboutSection(),
+                                  ),
+                                  SizedBox(height: 120),
+                                  ExperiencesSection(),
+                                  SizedBox(height: 120),
+                                  ProjectsSection(),
+                                ],
+                              ),
+                              // ),
                             ),
-                            // ),
                           ),
                         ),
                       ),

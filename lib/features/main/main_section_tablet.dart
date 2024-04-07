@@ -24,7 +24,8 @@ class _MainTabletState extends State<MainTablet> {
       children: [
         Expanded(
           child: Container(
-            color: Theme.of(context).colorScheme.secondary,
+            // color: Theme.of(context).colorScheme.secondary,
+            color: Theme.of(context).colorScheme.primary,
             child: CustomScrollView(
               controller: scrollController,
               slivers: [

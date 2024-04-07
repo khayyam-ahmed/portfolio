@@ -15,15 +15,18 @@ class ExperienceCard extends StatelessWidget {
     final theme = Theme.of(context);
 
     return Material(
-      color: theme.colorScheme.secondary,
+      color: theme.colorScheme.primary,
       borderRadius: BorderRadius.circular(20),
       child: InkWell(
         mouseCursor: MaterialStateMouseCursor.textable,
         onTap: () => _onTap(context),
         borderRadius: BorderRadius.circular(20),
-        hoverColor: const Color.fromARGB(59, 0, 0, 0),
-        splashColor: theme.colorScheme.secondary,
-        highlightColor: theme.colorScheme.secondary.withAlpha(20),
+        // hoverColor: const Color.fromARGB(59, 0, 0, 0),
+        // splashColor: theme.colorScheme.secondary,
+        // highlightColor: theme.colorScheme.secondary.withAlpha(20),
+        hoverColor: theme.colorScheme.tertiary.withAlpha(40),
+        splashColor: theme.colorScheme.tertiary.withAlpha(30),
+        highlightColor: theme.colorScheme.tertiary.withAlpha(20),
         child: MouseRegion(
           cursor: SystemMouseCursors.basic,
           child: Padding(

@@ -27,16 +27,21 @@ class _ProjectCardState extends State<ProjectCard> {
         onLongPress: _scaleUp,
         onLongPressUp: _scaleDown,
         child: Material(
-          color: Theme.of(context).colorScheme.secondary,
+          // color: Theme.of(context).colorScheme.secondary,
+          color: Theme.of(context).colorScheme.primary,
           borderRadius: BorderRadius.circular(20),
           child: InkWell(
             // mouseCursor: MaterialStateMouseCursor.textable,
             onTap: _onTap,
             borderRadius: BorderRadius.circular(20),
-            hoverColor: const Color.fromARGB(59, 0, 0, 0),
-            splashColor: Theme.of(context).colorScheme.secondary.withAlpha(30),
+            // hoverColor: const Color.fromARGB(59, 0, 0, 0),
+            // splashColor: Theme.of(context).colorScheme.secondary.withAlpha(30),
+            // highlightColor:
+            //     Theme.of(context).colorScheme.secondary.withAlpha(20),
+            hoverColor: Theme.of(context).colorScheme.tertiary.withAlpha(40),
+            splashColor: Theme.of(context).colorScheme.tertiary.withAlpha(30),
             highlightColor:
-                Theme.of(context).colorScheme.secondary.withAlpha(20),
+                Theme.of(context).colorScheme.tertiary.withAlpha(20),
             child: Padding(
               padding: const EdgeInsets.all(12.0),
               child: _buildResponsiveProjectCardContent(context),
