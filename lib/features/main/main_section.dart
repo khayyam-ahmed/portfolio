@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:portfolio/common/widgets/responsive.dart';
 import 'package:portfolio/features/main/main_section_desktop.dart';
 import 'package:portfolio/features/main/main_section_tablet.dart';
+import 'package:portfolio/features/main/widgets/end_drawer.dart';
 
 class MainSection extends HookWidget {
   const MainSection({super.key});
@@ -11,6 +12,9 @@ class MainSection extends HookWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.secondary,
+      endDrawer: const SafeArea(
+        child: EndDrawer(),
+      ),
       // endDrawer: ,
       body: const SafeArea(
         left: false,
