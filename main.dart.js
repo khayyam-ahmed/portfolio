@@ -77920,7 +77920,7 @@ $1(a){return new A.pa(a,null)},
 $S:460}
 A.EF.prototype={
 E(a){var s=null,r=$.an3()
-return A.dY(A.a([new A.c2(B.CE,A.cf("About Me",s,s,A.M(a).p3.r),s),A.cf("Embarking on a transformative journey in tech, I'm Khayyam Ahmed, a software engineer pivoting towards full-stack development with a passion for machine learning and a future goal of mastering computer vision.",s,s,A.M(a).p3.y)],t.p),B.ai,r,B.T,B.V)}}
+return A.dY(A.a([new A.c2(B.CE,A.cf("About Me",s,s,A.M(a).p3.r),s),A.cf("Hi, I'm Khayyam Ahmed, a software engineer exploring full-stack development. I'm interested in machine learning and plan to expand my skills in computer vision.",s,s,A.M(a).p3.y)],t.p),B.ai,r,B.T,B.V)}}
 A.He.prototype={
 E(a){var s=A.a([new A.c2(B.lE,A.cf("Experience",$.an5(),null,A.M(a).p3.r),null)],t.p)
 B.b.L(s,new A.a3($.axz,new A.a0d(),A.a5($.axz).i("a3<1,h>")))
